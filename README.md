@@ -18,12 +18,12 @@ This project demonstrates a simple neural network implemented from scratch in Py
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-   cd YOUR-REPO-NAME
+   git clone https://github.com/khwahishmerchant/Neural-Network-from-Scratch.git
+   cd Neural-Network-from-Scratch
    ```
 
 2. **Install dependencies**  
-   (If you don’t have NumPy)
+   (If you don’t have NumPy installed, run:)
    ```bash
    pip install -r requirements.txt
    ```
@@ -33,6 +33,8 @@ This project demonstrates a simple neural network implemented from scratch in Py
    python neural_network.py
    ```
 
+> **Note:** This code is compatible with Python 3.x.
+
 ## Output
 
 After training, the script prints the learned weights and the final output prediction of the network.
@@ -40,12 +42,17 @@ After training, the script prints the learned weights and the final output predi
 ## Example Output
 
 ```
-[[...weights1 values...]]
-[[...weights2 values...]]
-[[0.01...]
- [0.98...]
- [0.98...]
- [0.01...]]
+[[ 7.83466268  5.12410097 -4.15922602  3.09272652]
+ [-4.83734023  5.00927678  7.71354398  2.98261113]
+ [ 1.37657582 -0.35817953  0.78073725  1.5943769 ]]
+[[-10.50703467]
+ [  9.54010585]
+ [-10.51223769]
+ [  6.44099356]]
+[[0.00179643]
+ [0.9932753 ]
+ [0.99323431]
+ [0.00836755]]
 ```
 
 ## Files
@@ -54,10 +61,6 @@ After training, the script prints the learned weights and the final output predi
 - `requirements.txt` – List of dependencies
 - `.gitignore` – Standard Python ignores
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
-*Created by [Your Name](https://github.com/YOUR-USERNAME)*
+*Created by [Khwahish Merchant](https://github.com/khwahishmerchant)*
